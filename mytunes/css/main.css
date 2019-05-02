@@ -1,0 +1,219 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+
+img{
+    width:100%;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+
+header{
+    padding:15px;
+    background:#252529;
+    position:fixed;
+    width:100%;
+    opacity:0.95;
+}
+
+
+header ul li{
+    display:inline;
+    list-style-type: none;
+}
+
+header ul li a{
+    color:white;
+    padding:0 15px 0 15px;
+}
+
+
+.showcase{
+    background:url(../img/showcase.jpg);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    width:100%;
+    color:white;
+}
+
+.showcase h1,h2,p{
+    margin:0;
+    padding:15px;
+    text-align:center;
+}
+
+.showcase h1{
+   padding-top:25vh;
+   font-size:65px;
+}
+
+.showcase h2{
+  font-size:30px;
+   
+}
+
+.showcase p{
+    font-size:24px;
+}
+
+
+.music{
+    background:#252529;
+    text-align:center;
+    color:white;
+}
+
+.music i{
+    padding-top:50px;
+    font-size:45px;
+   
+}
+
+.music a{
+    display:inline-block;
+    background:#b90415;
+    padding:15px;
+}
+
+.movie{
+    text-align:center;
+}
+
+.movie a{
+    display:inline-block;
+    padding:15px;
+    background:#103063;   
+}
+
+.movie p{
+    color:black;
+}
+
+.movie h1{
+    padding-top:50px;
+
+}
+
+.entertaiment{
+    background:url(../img/section-bg.jpg);
+    background-size:cover;
+    background-position: bottom;
+    min-height:65vh;
+    color:white;
+    text-align:center;
+    
+
+}
+
+.entertaiment h1{
+    padding-top:15%;
+    font-size:30px;
+}
+
+.entertaiment p{
+    font-size:20px;
+}
+
+.giftcard{
+    margin-top:50px;
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns:repeat(2, 1fr);
+    margin-bottom:50px;
+    
+}
+
+.cardinfo h1{
+    text-align:left;
+    color:black;
+}
+
+.cardinfo h2{
+    text-align:left;
+    color:black;
+}
+
+.cardinfo p{
+    text-align:left;
+    color:black;
+}
+
+.cardinfo a{
+    text-align:left;
+    color:black;
+}
+
+.info ul li{
+    list-style-type: none;
+}
+
+.info ul li:first-child{
+    border-bottom:1px solid grey;
+}
+
+.info{
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns:repeat(4, 1fr);
+}
+
+.inf{
+    background:#252529;
+    padding:50px;
+    color:white;
+}
+
+.copyright h3{
+    margin:0;
+    padding:0;
+    color:white;
+}
+
+.copyright{
+    background:#333;
+    text-align:center;
+    padding:15px;
+}
+
+@media(max-width:768px){
+    .hide-on-small{
+        display:none;
+    }
+
+    .showcase{
+        height:55vh;
+    }
+
+    .showcase h1{
+        padding-top:15vh;
+    }
+     
+
+    .giftcard{
+      display:block;
+      width:100%;
+    }
+
+    header ul li a{
+       padding: 0 5px 0 5px;
+    }
+}
